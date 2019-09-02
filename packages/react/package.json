@@ -1,6 +1,6 @@
 {
   "name": "@drevo/react",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Drevo React components and hooks",
   "homepage": "https://www.dqnt.io/p/drevo",
   "repository": {
@@ -43,6 +43,6 @@
   },
   "gitHead": "54761ef4c1635ba6ad5101b3bca733a10a147283",
   "dependencies": {
-    "@drevo/core": "^0.0.6"
+    "@drevo/core": "^0.0.7"
   }
 }
