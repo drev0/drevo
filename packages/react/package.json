@@ -42,5 +42,8 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
-  "gitHead": "54761ef4c1635ba6ad5101b3bca733a10a147283"
+  "gitHead": "54761ef4c1635ba6ad5101b3bca733a10a147283",
+  "dependencies": {
+    "@drevo/core": "^0.0.4"
+  }
 }
