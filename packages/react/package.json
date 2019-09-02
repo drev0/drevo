@@ -1,0 +1,45 @@
+{
+  "name": "@drevo/react",
+  "version": "0.0.1",
+  "description": "Drevo React components and hooks",
+  "main": "pkg/dist-node/index.js",
+  "homepage": "https://www.dqnt.io/p/drevo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drev0/drevo.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-ts-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ]
+    ]
+  },
+  "scripts": {
+    "build": "pika-pack build"
+  },
+  "devDependencies": {
+    "@pika/pack": "^0.5.0",
+    "@pika/plugin-build-node": "^0.6.0",
+    "@pika/plugin-build-web": "^0.6.0",
+    "@pika/plugin-ts-standard-pkg": "^0.6.0",
+    "@pika/types": "^0.6.0",
+    "@types/node": "^12.7.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "typescript": "^3.6.2"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
