@@ -2,7 +2,6 @@
   "name": "@drevo/core",
   "version": "0.0.5",
   "description": "Drevo Core",
-  "main": "pkg/dist-node/index.js",
   "homepage": "https://www.dqnt.io/p/drevo",
   "repository": {
     "type": "git",

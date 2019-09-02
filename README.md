@@ -17,5 +17,5 @@ npm install drevo --save
 ## Release process
 
 ```sh
-yarn run build && yarn run publish
+yarn rls
 ```

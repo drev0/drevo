@@ -34,7 +34,7 @@ export const Drevo: React.FC<DrevoProps> = ({ children }) => {
     <div>
       <button onClick={createDrevo}>create drevo</button>
       <div>Drevo React {version()}</div>
-      <div>{_drevo}</div>
+      <div style={{ color: "green" }}>{_drevo}</div>
       {children}
     </div>
   );
