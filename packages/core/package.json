@@ -1,6 +1,6 @@
 {
   "name": "@drevo/core",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Drevo Core",
   "homepage": "https://www.dqnt.io/p/drevo",
   "main": "src/index.ts",
