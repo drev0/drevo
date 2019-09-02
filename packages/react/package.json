@@ -24,7 +24,7 @@
     ]
   },
   "scripts": {
-    "build": "pika-pack build"
+    "build": "pika build"
   },
   "devDependencies": {
     "@pika/pack": "^0.5.0",
