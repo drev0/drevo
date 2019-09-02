@@ -5,9 +5,9 @@
   "author": "Alexander \"Snov\" Semenchenko",
   "license": "MIT",
   "scripts": {
-    "version": "lerna version",
-    "build": "lerna run build",
-    "publish": "lerna publish from-package --contents pkg",
+    "vsn": "lerna version",
+    "bld": "lerna run build",
+    "pblsh": "lerna publish from-package --contents pkg",
     "nuke": "lerna exec \"rm -f package-lock.json npm-shrinkwrap.json\" && lerna clean --yes && lerna bootstrap && lerna exec --stream -- \"test -f package-lock.json || npm install --package-lock-only\""
   },
   "devDependencies": {
