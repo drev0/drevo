@@ -1,0 +1,8 @@
+{
+  "name": "drevo",
+  "version": "1.0.1",
+  "description": "The tree library",
+  "main": "src/index.js",
+  "author": "Alexander \"Snov\" Semenchenko",
+  "license": "MIT"
+}
