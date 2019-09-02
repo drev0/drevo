@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../dist-src/index.js"],"sourcesContent":["const _version = require(\"../package\").version;\r\nexport const version = () => _version;\r\n"],"names":["_version","require","version"],"mappings":";;;;AAAA,MAAMA,QAAQ,GAAGC,OAAO,CAAC,YAAD,CAAP,CAAsBC,OAAvC;;AACA,MAAaA,OAAO,GAAG,MAAMF,QAAtB;;;;"}

@@ -1,29 +1,19 @@
 {
   "name": "@drevo/core",
-  "version": "0.0.1",
   "description": "Drevo Core",
-  "main": "pkg/dist-node/index.js",
+  "version": "0.0.1",
+  "files": [
+    "dist-*/",
+    "bin/"
+  ],
+  "pika": true,
+  "sideEffects": false,
   "homepage": "https://www.dqnt.io/p/drevo",
   "repository": {
     "type": "git",
     "url": "https://github.com/drev0/drevo.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "@pika/pack": {
-    "pipeline": [
-      [
-        "@pika/plugin-ts-standard-pkg"
-      ],
-      [
-        "@pika/plugin-build-node"
-      ]
-    ]
-  },
-  "scripts": {
-    "build": "pika-pack build"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@pika/pack": "^0.5.0",
     "@pika/plugin-build-node": "^0.6.0",
@@ -32,5 +22,10 @@
     "@types/node": "^12.7.3",
     "typescript": "^3.6.2"
   },
-  "gitHead": "d2895db64969a6e2b1856d475a451c95e8f99df7"
+  "publishConfig": {
+    "access": "public"
+  },
+  "source": "dist-src/index.js",
+  "types": "dist-types/index.d.ts",
+  "main": "dist-node/index.js"
 }
