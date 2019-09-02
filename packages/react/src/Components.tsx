@@ -6,7 +6,7 @@ interface DrevoProps {}
 
 export const Drevo: React.FC<DrevoProps> = ({ children }) => (
   <div>
-    <div>Drevo ${version()}</div>
+    <div>Drevo {version()}</div>
     {children}
   </div>
 );
