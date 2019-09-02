@@ -1,6 +1,6 @@
 {
   "name": "@drevo/core",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "description": "Drevo Core",
   "main": "pkg/dist-node/index.js",
   "homepage": "https://www.dqnt.io/p/drevo",
@@ -32,5 +32,5 @@
     "@types/node": "^12.7.3",
     "typescript": "^3.6.2"
   },
-  "gitHead": "d2895db64969a6e2b1856d475a451c95e8f99df7"
+  "gitHead": "54761ef4c1635ba6ad5101b3bca733a10a147283"
 }
