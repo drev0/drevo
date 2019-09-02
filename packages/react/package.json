@@ -2,6 +2,7 @@
   "name": "@drevo/react",
   "version": "0.0.10",
   "description": "Drevo React components and hooks",
+  "main": "src/index.ts",
   "homepage": "https://www.dqnt.io/p/drevo",
   "repository": {
     "type": "git",

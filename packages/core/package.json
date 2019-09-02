@@ -3,6 +3,7 @@
   "version": "0.0.7",
   "description": "Drevo Core",
   "homepage": "https://www.dqnt.io/p/drevo",
+  "main": "src/index.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/drev0/drevo.git"
