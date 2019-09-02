@@ -1,6 +1,6 @@
 {
   "name": "@drevo/react",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Drevo React components and hooks",
   "main": "pkg/dist-node/index.js",
   "homepage": "https://www.dqnt.io/p/drevo",
@@ -44,6 +44,6 @@
   },
   "gitHead": "54761ef4c1635ba6ad5101b3bca733a10a147283",
   "dependencies": {
-    "@drevo/core": "^0.0.4"
+    "@drevo/core": "^0.0.5"
   }
 }
